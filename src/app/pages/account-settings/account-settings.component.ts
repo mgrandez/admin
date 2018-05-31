@@ -27,7 +27,7 @@ export class AccountSettingsComponent implements OnInit {
     let selectores: any = document.getElementsByClassName('selector');
 
     // tslint:disable-next-line:prefer-const
-    for (let ref of selectores){
+    for (let ref of selectores) {
       ref.classList.remove('working');
     }
 
